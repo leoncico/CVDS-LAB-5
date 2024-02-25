@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="../style/gameStyle.css">
+    <body>
+        <h1>Juego de Adivinanza!</h1>
+
+        <div th:text=${actualValue}></div>
+
+        <form action="/guess" method="post">
+            <label for="numero">Digite un número:</label>
+            <input type="number" id="numero" name="number" required>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <form action="/reset" method="post">
+            <button type="submit">Reiniciar</button>
+        </form>
+
+        <div class="winnerAlert" th:text="${winnerAlert}"> </div>
+
+    </body>
+</html>
