@@ -111,8 +111,7 @@ En un proyecto Spring MVC, se utilizan diversas anotaciones para configurar y ge
 - **¿Qué es RESTful?**
 
 FOTICO DE LA PAGINA
-
-RESTful (Representational State Transfer) es un estilo arquitectónico para el diseño de servicios web que se basa en principios y restricciones bien definidos. Fue propuesto por Roy Fielding en su tesis doctoral en 2000 y se ha convertido en un enfoque ampliamente utilizado para desarrollar servicios web que sean simples, escalables y eficientes.
+RESTful es una forma de diseñar interfaces de programación de aplicaciones (API) que se adhieren a los principios de REST, que significa Transferencia de Estado Representacional. RESTful es como un conjunto de modales para una conversación entre aplicaciones. Estas reglas aseguran que las aplicaciones se entiendan y puedan intercambiar información de forma eficiente y clara.
 
 - Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, **¿en qué capa se haría su uso?**
 
