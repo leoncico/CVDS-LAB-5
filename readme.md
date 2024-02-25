@@ -6,11 +6,36 @@
 # Parte 1
 ### Peticion GET
 ![GitPrincipal](img/error1.png)
+
+
 ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
+
+Códigos 200 (Éxito):
+* 200 OK: Indica que la solicitud se ha completado correctamente, y el servidor está devolviendo los datos solicitados.
+  
+Códigos 300 (Redirecciones):
+* 301 Moved Permanently: El recurso solicitado se ha movido permanentemente a una nueva ubicación. Los navegadores deben actualizar sus marcadores y enlaces.
+* 302 Found (o 302 Found Temporary): Indica una redirección temporal. Los navegadores pueden mantener el enlace original en su caché.
+* 304 Not Modified: Indica que la página no ha cambiado desde la última vez que se accedió a ella, y se puede usar la versión en caché.
+
+Códigos 400 (Errores del Cliente):
+* 400 Bad Request: La solicitud enviada al servidor es incorrecta o no puede ser procesada.
+* 401 Unauthorized: Se requiere autenticación para acceder al recurso.
+* 403 Forbidden: El servidor comprende la solicitud, pero no permite el acceso al recurso.
+* 404 Not Found: El recurso solicitado no se encuentra en el servidor.
+
+Códigos 500 (Errores del Servidor):
+* 500 Internal Server Error: Indica un error en el servidor que impide que la solicitud se complete correctamente.
+* 502 Bad Gateway: El servidor, mientras actuaba como puerta de enlace o proxy, recibió una respuesta no válida del servidor ascendente.
+* 503 Service Unavailable: El servidor no puede atender la solicitud en este momento debido a una sobrecarga o mantenimiento.
 
 ### Realice nueva conexion con Telnet
 
+![GitPrincipal](img/error2.png)
+
 ### Contar el número de caracteres
+
+Debido a que no pudimos realizar una conexion con ninguna de las dos direcciones, no podemos ejecutar el comando para contar el número de caracteres.
 
 ### Investigue: ¿Cuál esla diferencia entre los verbos GET y POST? ¿Qué otros tipos de peticiones existen?
 
