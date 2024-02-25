@@ -106,18 +106,32 @@ En un proyecto Spring MVC, se utilizan diversas anotaciones para configurar y ge
 **@Autowired:** Utilizada para inyectar dependencias en los controladores u otros componentes de Spring.
 **@RequestMapping:** Permite especificar una URL base para todos los métodos de un controlador.
 
+![GitPrincipal](img/hello.png)
+
 ### PARTE 3
 
 - **¿Qué es RESTful?**
 
-FOTICO DE LA PAGINA
+![GitPrincipal](img/user.png)
+
 RESTful es una forma de diseñar interfaces de programación de aplicaciones (API) que se adhieren a los principios de REST, que significa Transferencia de Estado Representacional. RESTful es como un conjunto de modales para una conversación entre aplicaciones. Estas reglas aseguran que las aplicaciones se entiendan y puedan intercambiar información de forma eficiente y clara.
 
 - Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, **¿en qué capa se haría su uso?**
 
+![GitPrincipal](img/boot.png)
 
 ### PARTE 4
+
+![GitPrincipal](img/guess.png)
+
 -  **¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?**
+Se abren independientemente y tendran saldos segun cada uno
+
+![GitPrincipal](img/2nav.png)
+![GitPrincipal](img/eje1.png)
+![GitPrincipal](img/eje2.png)
+ 
 -  **Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?**
+  Se puede utilizar una base de datos para almacenar la información del jugador, incluido su saldo. Cada jugador tendría su propio registro en la base de datos, y el saldo se actualizaría en función de sus acciones en el juego.
 
 
