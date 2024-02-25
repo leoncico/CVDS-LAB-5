@@ -74,14 +74,14 @@ Los parámetros -v e -i en el comando curl tienen distintos propósitos:
 
 ### PARTE 2
 
-> * **¿Por qué MVC obtiene ese nombre?**
+- **¿Por qué MVC obtiene ese nombre?**
 
 MVC se llama así debido a su arquitectura de tres componentes principales:
 **Modelo (Model):** Representa los datos y la lógica empresarial de la aplicación.
 **Vista (View):** Presenta los datos al usuario y maneja la interfaz de usuario.
 **Controlador (Controller):** Controla las solicitudes del usuario, interactúa con el modelo y selecciona la vista adecuada para mostrar los resultados.
 
-> * **¿Cuáles son las ventajas de usar MVC?**
+- **¿Cuáles son las ventajas de usar MVC?**
 Algunas de las ventajas de utilizar la arquitectura MVC en aplicaciones web incluyen:
 **Separación de preocupaciones:** MVC divide la aplicación en componentes separados, lo que facilita la gestión y el mantenimiento del código.
 **Reutilización de código:** Los componentes del modelo y la vista pueden reutilizarse en diferentes partes de la aplicación o en proyectos futuros.
@@ -89,7 +89,7 @@ Algunas de las ventajas de utilizar la arquitectura MVC en aplicaciones web incl
 **Pruebas unitarias:** Permite realizar pruebas unitarias más eficaces y facilita la automatización de pruebas.
 Colaboración entre equipos: Permite que equipos diferentes trabajen en paralelo en diferentes partes de la aplicación.
 
-> * **¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?**
+- **¿Qué diferencia tiene la estructura de directorios de este proyecto comparado con las de proyectos pasados (con solo maven y java EE)?**
 La estructura de directorios en un proyecto Spring MVC es diferente de la de proyectos Maven y Java EE debido a la naturaleza específica de Spring MVC. En un proyecto Spring MVC, se suelen encontrar carpetas y paquetes como:
 **src/main/java:** Contiene las clases Java, incluyendo controladores y modelos.
 **src/main/resources:** Contiene recursos como archivos de configuración XML y propiedades.
@@ -97,7 +97,7 @@ La estructura de directorios en un proyecto Spring MVC es diferente de la de pro
 **WEB-INF:** Contiene archivos de configuración de Spring y configuraciones específicas de Servlet.
 Esta estructura está diseñada para facilitar la gestión de componentes MVC y la configuración de Spring.
 
-> * **¿Qué anotaciones usaste y cuál es la diferencia entre ellas?**
+- **¿Qué anotaciones usaste y cuál es la diferencia entre ellas?**
 En un proyecto Spring MVC, se utilizan diversas anotaciones para configurar y gestionar controladores, vistas y otras partes de la aplicación. Algunas anotaciones comunes incluyen:
 **@Controller:** Anota una clase como controlador.
 **@RequestMapping:** Define una URL o patrón de URL que se asigna a un método del controlador.
@@ -108,18 +108,17 @@ En un proyecto Spring MVC, se utilizan diversas anotaciones para configurar y ge
 
 ### PARTE 3
 
-> * **¿Qué es RESTful?**
+- **¿Qué es RESTful?**
 
 FOTICO DE LA PAGINA
 
 RESTful (Representational State Transfer) es un estilo arquitectónico para el diseño de servicios web que se basa en principios y restricciones bien definidos. Fue propuesto por Roy Fielding en su tesis doctoral en 2000 y se ha convertido en un enfoque ampliamente utilizado para desarrollar servicios web que sean simples, escalables y eficientes.
 
-> * Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, **¿en qué capa se haría su uso?**
+- Si utilizo un framework como [Boostrap CSS](https://getbootstrap.com/) para qué el apartado gráfico se vea más profesional, **¿en qué capa se haría su uso?**
 
 
 ### PARTE 4
-
-> *  **¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?**
-> *  **Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?**
+-  **¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?**
+-  **Si quisiera qué a cada jugador le aparecieran independientemente sus respectivos saldos. ¿Qué habría que hacer?**
 
 
