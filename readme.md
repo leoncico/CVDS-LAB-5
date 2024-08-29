@@ -13,16 +13,18 @@ App -->|Interacts with| SparkServer
 App -->|Interacts with| MedAppointmentService
 App -->|Spawns| ClientHandler
 
-subgraph Request Processing
-	ClientHandler -->|Handles GET| handleGetRequest
-	ClientHandler -->|Processes Service Calls| callService
-end
 
 SparkServer -->|POST Routes| AddMedAppointmentService
 SparkServer -->|GET Routes| ListAppointmentService
 AddMedAppointmentService -->|Relies on| MedAppointmentService
 ListAppointmentService -->|Relies on| MedAppointmentService
 MedAppointmentService -->|Administers| MedAppointment
+
+subgraph Request Processing
+	ClientHandler -->|Handles GET| handleGetRequest
+	ClientHandler -->|Processes Service Calls| callService
+end
+
 ```
 
 ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
