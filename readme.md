@@ -7,7 +7,7 @@
 ### Peticion GET
 ![GitPrincipal](img/error1.png)
 
-
+```mermaid
 graph TD
 App -->|Interacts with| SparkServer
 App -->|Interacts with| MedAppointmentService
