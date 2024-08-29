@@ -23,6 +23,7 @@ SparkServer -->|GET Routes| ListAppointmentService
 AddMedAppointmentService -->|Relies on| MedAppointmentService
 ListAppointmentService -->|Relies on| MedAppointmentService
 MedAppointmentService -->|Administers| MedAppointment
+```
 
 ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
 
