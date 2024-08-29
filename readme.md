@@ -9,21 +9,20 @@
 
 ```mermaid
 graph TD
-App -->|Interacts with| SparkServer
-App -->|Interacts with| MedAppointmentService
 App -->|Spawns| ClientHandler
+App -->|Interacts with| MedAppointmentService
+App -->|Interacts with| SparkServer
 
+subgraph Request Processing
+        ClientHandler -->|Processes Service Calls| callService
+	ClientHandler -->|Handles GET| handleGetRequest
+end
 
+ListAppointmentService -->|Relies on| MedAppointmentService
+MedAppointmentService -->|Administers| MedAppointment
 SparkServer -->|POST Routes| AddMedAppointmentService
 SparkServer -->|GET Routes| ListAppointmentService
 AddMedAppointmentService -->|Relies on| MedAppointmentService
-ListAppointmentService -->|Relies on| MedAppointmentService
-MedAppointmentService -->|Administers| MedAppointment
-
-subgraph Request Processing
-	ClientHandler -->|Handles GET| handleGetRequest
-	ClientHandler -->|Processes Service Calls| callService
-end
 
 ```
 
